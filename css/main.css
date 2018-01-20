@@ -1,0 +1,614 @@
+/*********
+*style the default home page
+*********/
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+#header {
+    position: relative;
+    height: 140px;
+    background-color: white;
+}
+
+footer.footer {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    color: #929292;
+}
+
+div.context {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+div.head_bar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    opacity: 0.8;
+    border-bottom-width: medium;
+    border-bottom-style: dashed;
+    border-bottom-color: #c90025;
+    background-color: white;
+}
+
+div.booking {
+    position: absolute;
+    right: 7%;
+    top: 30%;
+    background:none;
+    border: 0;
+}
+
+div.contact_us {
+    position: absolute;
+    background-color: #c90025;
+    font-size: 16px;
+    color: white;
+    font-family: 'Baumans', cursive;
+    font-weight: 600;
+    right: 3%;
+    top: 56%;
+    border: 0;
+    z-index: 1000;
+    border-radius: 25px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+li.contact_us {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+li a.contact_us {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Baumans', cursive;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: none;
+    list-style-type: none;
+}
+
+ul.head_nav {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    width: 80%;
+    list-style-type: none;
+}
+
+li.head_nav {
+    float: left;
+    list-style-type: none;
+}
+
+li a.head_nav {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Baumans', cursive;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: none;
+}
+
+li a.head_nav:hover {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #c90025;
+    background-color: white;
+}
+
+nav a.head_nav {
+    height: 30px;
+    color: black;
+    border: 1px solid white;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: white;
+}
+
+div.head_logo {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    height: 60px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+
+
+div.img {
+    position: absolute;
+}
+
+div.home_poem {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    height: 200px;
+    width: 580px;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: lighter;
+    color: white;
+    font-size: 24px;
+    padding: 14px;
+    line-height: 50px;
+}
+
+div a.home_search {
+    background-color: #89dbec;
+    text-decoration: none;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 14%;
+    margin:0 auto;
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 13px;
+    text-transform: uppercase;
+}
+
+div a.home_search:hover{
+    background-color: #52859f;
+}
+
+/*********
+*style the search page
+*********/
+
+#search_flight {
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    width: 480px;
+    height: 400px;
+}
+
+#search_flight_title {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding-left: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+div.search_destination {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    padding: 10px;
+    margin: 5px;
+}
+
+select {
+    border-color: #c3a2a1;
+    color: #dbd9d9;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 378px;
+    height: 30px;
+    *width: 350px;
+    *background: #dbd9d9;
+}
+
+select.search_area {
+    overflow: hidden;
+    width: 350px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 11px #330033;
+}
+
+button.find_flights {
+    background-color: #c90025;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    width: 135px;
+    height: 26px;
+    font-size: 16px;
+    text-align: left;
+    float: right;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#arrow {
+    color: #85090b;
+    float: right;
+}
+
+
+/**********
+*Style search results page
+**********/
+div.search_results{
+  position: absolute;
+  top:10%;
+  left: 13%;
+  width: 600px;
+  height: 500px;
+
+}
+
+legend.search_results_title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    
+}
+
+table.result_table{
+    font-family:'Exo 2', sans-serif;
+    margin:5px;
+
+}
+
+/*********
+* style select seats page
+*********/
+div.choose_seats{
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    width: 700px;
+    height: 600px;
+}
+
+div.choose_from_tt{
+    position:absolute;
+    top:-3%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin:0;
+    padding:0;
+    text-align:left;
+
+}
+
+div.choose_to_tt{
+    position:absolute;
+    top:-2%;
+    left:40%;
+    color: darkslategrey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+/*********
+* style make bookings page
+*********/
+div.add_bookings{
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    width: 500px;
+    height: 500px;
+}
+legend.add_bookings_title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+}
+
+/*********
+* style personal info page
+*********/
+div.personal_info{
+    position: absolute;
+    top:10%;
+    left: 13%;
+    width:1050px;
+    height:600px;
+}
+
+legend.per_info_title {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+div.p_form_1{
+    position: absolute;
+    top:15%;
+    left:-1%;
+    width:500px;
+    height:500px;
+
+}
+
+div.p_form_2{
+    position: absolute;
+    top:15%;
+    right:0%;
+    width:500px;
+    height:500px;
+
+}
+
+div.go_pay_btn{
+    position: absolute;
+    bottom: 15%;
+    right: 0%;
+
+}
+
+/*********
+* style payment page
+*********/
+div.order_pay_detail{
+    width:1100px;
+    height:700px;
+    position: absolute;
+    top:10%;
+
+}
+div.order_info{
+    position: absolute;
+    top:10%;
+    left: 5%;
+    width:500px;
+    height:600px;
+
+}
+
+div.payment_info{
+    position: absolute;
+    top:10%;
+    right:10%;
+    width:600px;
+    height:600px;
+}
+
+legend.pay_info_title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+table.order_info{
+    background-color: aliceblue;
+    position: absolute;
+    top:14%;
+    opacity: 0.6;
+    color: black;
+    font-size: 16px;
+    font-family: 'Rokkitt', serif;
+
+}
+table td.order_info{
+    width:250px;
+    margin:5px;
+    padding:5px;
+
+}
+
+table.payment_info{
+    color: black;
+    font-size: 16px;
+    font-family: 'Rokkitt', serif;
+
+}
+table td.payment_info{
+    width:153px;
+    margin:5px;
+    padding:3px;
+
+}
+
+div.order_re_btn{
+    position: absolute;
+    bottom: 28%;
+    right: 0%;
+
+}
+
+img.pay_logo{
+    width:60px;
+    height:40px;
+}
+
+/*********
+* style book confirm page
+*********/
+
+div.payment_confirm{
+    position: absolute;
+    top:10%;
+    left:13%;
+    width:700px;
+    height:600px;
+}
+
+legend.pay_confirm_title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+table.order_confirm{
+    background-color: aliceblue;
+    opacity: 0.6;
+    color: black;
+    font-size: 16px;
+    font-family: 'Rokkitt', serif;
+
+}
+table.p_info_confirm{
+    background-color: aliceblue;
+    opacity: 0.6;
+    color: black;
+    font-size: 16px;
+    font-family: 'Rokkitt', serif;
+
+}
+table td.order_confirm{
+    width:250px;
+    margin:5px;
+    padding:5px;
+
+}
+
+div.order_re_btn{
+    position: absolute;
+    bottom: 28%;
+    right: 0%;
+
+}
+
+
+/*********
+* style ordered page
+*********/
+
+div.ordered_info{
+    position: absolute;
+    top:10%;
+    left:20%;
+    width:700px;
+    height:200px;
+
+}
+
+div.ordered_alert{
+    position: absolute;
+    top:10%;
+    left:10%;
+    font-size: 28px;
+    width:100%;
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+/*********
+* style contact us page
+*********/
+
+div.contact_us_request {
+    position: absolute;
+    top: 10%;
+    right:22%;
+    width: 750px;
+    height: 550px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    color: darkslategrey;
+}
+
+legend.contact_us_title {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding-left: 10px;
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+div.contact_us_form{
+    position: absolute;
+    top: 15%;
+    left: -5%;
+    width: 800px;
+    height: 500px;
+
+}
+
+/*********
+* style send request page
+*********/
+div.send_request_alert{
+    position: absolute;
+    top:10%;
+    left:13%;
+    font-size: 40px;
+    font-family:'Montserrat', sans-serif;
+    color: white;
+}
+
+/*********
+* style my bookings page
+*********/
+
+div.my_bookings_info{
+    position: absolute;
+    top:10%;
+    left:13%;
+    width:500px;
+
+}
+
+legend.my_bookings_title {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding-left: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+div.my_bookings_form{
+    position: absolute;
+    top:10%;
+    left:3%;
+    height:400px;
+    width:100%;
+}
+
+
+table.my_bookings_table{
+    position: absolute;
+    bottom: 10%;
+    left:3%;
+    font-size: 18px;
+    font-family: 'Rokkitt', serif;
+}

@@ -1,0 +1,44 @@
+
+/* overwrite bootstrap styles here */
+
+/**********
+ * Overwrite primary colour of bootstrap
+ **********/
+
+.btn-primary {
+    background-color: #c90025 !important;
+    border-color: #c90025 !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 16px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+    background-color: #ea4f64 !important;
+    border-color: #ea4f64 !important;
+}
+
+.btn-primary.active {
+    background-color: #c90025 !important;
+}
+
+.btn-primary-outline {
+    color: #c90025 !important;
+    border-color: #c90025 !important;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:active,
+.btn-primary-outline:focus,
+.btn-primary-outline:active:focus {
+    color: #c90025 !important;
+    border-color: #c90025 !important;
+    background: none;
+}
+
+.btn-primary-outline.active {
+    color: #c90025 !important;
+    border-color: #c90025 !important;
+}
