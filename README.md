@@ -1,2 +1,2 @@
-# cynsflight
+# cynstrip
 Flight booking website example
